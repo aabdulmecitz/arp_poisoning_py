@@ -7,4 +7,4 @@ run:
 push:
 	git add .
 	git commit -m "commit $(DATE)"
-	git push
+	git push -f
